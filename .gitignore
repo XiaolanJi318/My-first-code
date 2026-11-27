@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# WorkBuddy 本地数据（含记忆/配置，不该进仓库）
+.workbuddy/
+
+# 大体积媒体与成片
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+douyin_*.mp4
+
+# AI 工程与生成素材
+*.miora
+*_assets/
+output/
+
+# 视频项目目录（里面主要是成品/素材）
+kilchoman-video/
+威士忌微电影/
+视频成片-胃/
+
+# 通用开发与缓存
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+
+# 凭据
+.env
+.env.*
+*.pem
+*.key
